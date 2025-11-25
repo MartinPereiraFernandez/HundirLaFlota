@@ -9,3 +9,10 @@ flowchart TD
     D1 -->|Sí| F1[Recorrer fila]
     F1 --> G1[fila+1]-->D1
         
+    A2[fila = ?]-->B"
+    B2[col = 0]-->C2
+    C2{¿Quedan columnas?}
+    C2 -->|Sí|D2[quedanvio]
+    D2 --> E2[col++]
+    E2 --> C2
+    C2 -->|No| F2([Fin])
