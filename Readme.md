@@ -13,7 +13,7 @@ flowchart TD
     B2[col = 0]-->C2
     C2{¿Quedan columnas?}
     C2 -->|Sí|D2[quedanvio]
-    D2 --> E2[col++]
+    D2 --> E2[col+1]
     E2 --> C2
     C2 -->|No| F2([Fin])
    
