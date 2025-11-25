@@ -21,16 +21,16 @@ flowchart TD
     B3{¿0?}
     C3[Agua]
     D3{¿1?}
-    E3[Correción]
+    E3[Buque]
     F3{¿2?}
-    G3[“Posiciones”]
+    G3[Portaviones]
     H3[Submarino]
     I3([Fin])
     A3 --> B3
-    B3 -->|Sí| C3 --> H3 --> I3
+    B3 -->|Sí| C3 --> I3
     B3 -->|No| D3
-    D3 -->|Sí| E3 --> H3
+    D3 -->|Sí| E3 --> I3
     D3 -->|No| F3
-    F3 -->|Sí| G3 --> H3
+    F3 -->|Sí| G3 --> I3
     F3 -->|No| H3
     H3 --> I3  
