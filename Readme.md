@@ -33,4 +33,4 @@ flowchart TD
     D3 -->|No| F3
     F3 -->|Sí| G3 --> H3
     F3 -->|No| H3
-    H3 --> I3 
+    H3 --> I3  
